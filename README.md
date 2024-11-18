@@ -1,19 +1,19 @@
-#TheDialogGame
+# TheDialogGame
 ---
 TheDialogGame is a text-based adventure game developed as part of a first-year Java course. This project emphasizes object-oriented programming (OOP) principles and integrates design patterns to create a modular and extensible game experience.
 
 In this game, players explore a dynamic map, unlock new zones by solving puzzles, collect and interact with items, and progress through a rich narrative-driven journey.
 
-##Features
+## Features
 
-###Gameplay
+### Gameplay
 
 	•	Explore the Map: Travel across interconnected zones, unlocking new areas as you solve puzzles and progress through the story.
 	•	Interact with Objects: Pick up, inspect, drop, or use items to solve challenges and advance.
 	•	Solve Puzzles: Engage with riddles and clues to unlock new zones and unravel mysteries.
 	•	Commands-Based Interface: Type commands like go, take, inspect, or solve to interact with the game world.
 
-###Technical Highlights
+### Technical Highlights
 
 	•	Object-Oriented Design: Modular design using encapsulation, inheritance, and polymorphism.
 	•	Design Patterns:
@@ -23,12 +23,12 @@ In this game, players explore a dynamic map, unlock new zones by solving puzzles
 	•	Text-Based Input System: Intuitive command system with clear feedback to guide the player.
 
 ---
-##Example Gameplay
+## Example Gameplay
 
 <img width="738" alt="gameplay-exemple" src="https://github.com/user-attachments/assets/654946ee-2139-4336-98be-ec37d31064b4">
 
 ---
-##Available Commands
+## Available Commands
 
 	Command >"Drop"  
 	Description: Command used to remove items from your inventory.  
@@ -82,7 +82,7 @@ In this game, players explore a dynamic map, unlock new zones by solving puzzles
 	When to use: Use this command to open chests or locked zones on the map.  
 
 ---
-##How to Run
+## How to Run
 
 	1.	Clone the repository, get the code:
 
@@ -91,11 +91,11 @@ In this game, players explore a dynamic map, unlock new zones by solving puzzles
 	3.	Run the game:
 
 ---
-##Learnings
+## Learnings
 
 This project served as a practical application of OOP concepts and design patterns in a real-world scenario. It challenged us to think critically about game design, modularity, and scalability. I had a lot of fun coding this, the gameplay is not completly finished but all the infrastrucutre is there, feel free to clone and create your own gameplay.
 ---
 
-##Feedback
+## Feedback
 
 If you have suggestions for improving the game mechanics, command system, or code structure, feel free to open an issue or submit a pull request!
