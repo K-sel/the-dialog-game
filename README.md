@@ -29,15 +29,56 @@ Example Gameplay
 
 Available Commands
 
-	•	go [north|south|east|west]: Move to adjacent zones on the map.
-	•	take / take all: Pick up specific items or all items in a zone.
-	•	inspect [item]: Examine an object for clues.
-	•	solve [answer]: Attempt to solve a puzzle in the current zone.
-	•	map: View the map and your current position. Locked zones appear in gray.
-	•	inventory: Check your inventory and available space.
-	•	look: Discover objects in the current zone.
-	•	drop [item]: Remove items from your inventory (they remain in the zone).
-	•	quit: Exit the game (note: no save functionality).
+	Command >"Drop"  
+	Description: Command used to remove items from your inventory.  
+	When to use: When you want to remove an item from your inventory. It drops to the ground but does not disappear.  
+	Variant: The `drop all` version removes all items from the inventory.  
+	
+	Command >"Help"  
+	Description: The help command lists all available commands in the game along with their information.  
+	When to use: When you don’t remember what to do or want to check the interactions available to you.  
+	
+	Command >"Take"  
+	Description: Command used to pick up items that can be collected.  
+	When to use: When you find an item that seems important, keep it! You never know, it might be useful later.  
+	Variant: The `take all` command collects all retrievable items in a zone.  
+	
+	Command >"Read"  
+	Description: Command to read letters you find.  
+	When to use: Read this letter; it might contain important clues.  
+	
+	Command >"Solve"  
+	Description: Use this command to solve puzzles.  
+	When to use: When you want to submit an answer to a puzzle.  
+	
+	Command >"Go"  
+	Description: This command moves the player across the map.  
+	When to use: To travel, you have four movement options (North/South/East/West).  
+	
+	Command >"Inspect"  
+	Description: Command used to inspect items.  
+	When to use: Inspect items; they might contain valuable clues.  
+	
+	Command >"Quit"  
+	Description: Exit the game.  
+	When to use: To leave the game – Warning: no save functionality.  
+	
+	Command >"Inventory"  
+	Description: This command displays the content of your inventory and the remaining space.  
+	When to use: When you want to check what’s in your inventory.  
+	
+	Command >"Map"  
+	Description: The map command displays the map. It highlights the player’s current position in green. Locked zones are shown in gray.  
+	When to use: If you’re lost, it can help you orient yourself in the game.  
+	
+	Command >"Look"  
+	Description: Command to observe and identify objects in the zone.  
+	When to use: When you arrive in a new zone, use this command to get an overview of the objects around you.  
+	They might hide important clues.  
+	
+	Command >"Open"  
+	Description: Provided you have the correct keys in your inventory...  
+	When to use: Use this command to open chests or locked zones on the map.  
 
 ---
 How to Run
