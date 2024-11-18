@@ -6,21 +6,21 @@ In this game, players explore a dynamic map, unlock new zones by solving puzzles
 
 Features
 
-Gameplay
-
-	•	Explore the Map: Travel across interconnected zones, unlocking new areas as you solve puzzles and progress through the story.
-	•	Interact with Objects: Pick up, inspect, drop, or use items to solve challenges and advance.
-	•	Solve Puzzles: Engage with riddles and clues to unlock new zones and unravel mysteries.
-	•	Commands-Based Interface: Type commands like go, take, inspect, or solve to interact with the game world.
-
-Technical Highlights
-
-	•	Object-Oriented Design: Modular design using encapsulation, inheritance, and polymorphism.
-	•	Design Patterns:
-	•	Factory Pattern: For dynamically creating game objects (e.g., zones, puzzles, or items).
-	•	Singleton Pattern: For managing the game state and player data.
-	•	Strategy Pattern: For implementing different puzzle-solving mechanics.
-	•	Text-Based Input System: Intuitive command system with clear feedback to guide the player.
+	Gameplay
+	
+		•	Explore the Map: Travel across interconnected zones, unlocking new areas as you solve puzzles and progress through the story.
+		•	Interact with Objects: Pick up, inspect, drop, or use items to solve challenges and advance.
+		•	Solve Puzzles: Engage with riddles and clues to unlock new zones and unravel mysteries.
+		•	Commands-Based Interface: Type commands like go, take, inspect, or solve to interact with the game world.
+	
+	Technical Highlights
+	
+		•	Object-Oriented Design: Modular design using encapsulation, inheritance, and polymorphism.
+		•	Design Patterns:
+		•	Factory Pattern: For dynamically creating game objects (e.g., zones, puzzles, or items).
+		•	Singleton Pattern: For managing the game state and player data.
+		•	Strategy Pattern: For implementing different puzzle-solving mechanics.
+		•	Text-Based Input System: Intuitive command system with clear feedback to guide the player.
 
 ---
 Example Gameplay
