@@ -53,25 +53,16 @@ Available Commands
 	•	drop [item]: Remove items from your inventory (they remain in the zone).
 	•	quit: Exit the game (note: no save functionality).
 
+---
 How to Run
 
 	1.	Clone the repository:
 
-git clone https://github.com/yourusername/thedialoggame.git  
-cd thedialoggame  
-
-
 	2.	Compile the Java files:
-
-javac -d bin src/*.java  
-
 
 	3.	Run the game:
 
-java -cp bin Main  
-
-
-
+---
 Learnings
 
 This project served as a practical application of OOP concepts and design patterns in a real-world scenario. It challenged us to think critically about game design, modularity, and scalability.
