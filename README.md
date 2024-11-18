@@ -1,5 +1,5 @@
 # TheDialogGame
----
+
 TheDialogGame is a text-based adventure game developed as part of a first-year Java course. This project emphasizes object-oriented programming (OOP) principles and integrates design patterns to create a modular and extensible game experience.
 
 In this game, players explore a dynamic map, unlock new zones by solving puzzles, collect and interact with items, and progress through a rich narrative-driven journey.
@@ -22,12 +22,12 @@ In this game, players explore a dynamic map, unlock new zones by solving puzzles
 	•	Strategy Pattern: For implementing different puzzle-solving mechanics.
 	•	Text-Based Input System: Intuitive command system with clear feedback to guide the player.
 
----
+
 ## Example Gameplay
 
 <img width="738" alt="gameplay-exemple" src="https://github.com/user-attachments/assets/654946ee-2139-4336-98be-ec37d31064b4">
 
----
+
 ## Available Commands
 
 	Command >"Drop"  
@@ -81,7 +81,7 @@ In this game, players explore a dynamic map, unlock new zones by solving puzzles
 	Description: Provided you have the correct keys in your inventory...  
 	When to use: Use this command to open chests or locked zones on the map.  
 
----
+
 ## How to Run
 
 	1.	Clone the repository, get the code:
@@ -90,12 +90,12 @@ In this game, players explore a dynamic map, unlock new zones by solving puzzles
 
 	3.	Run the game:
 
----
+
 ## Learnings
 
 This project served as a practical application of OOP concepts and design patterns in a real-world scenario. It challenged us to think critically about game design, modularity, and scalability. I had a lot of fun coding this, the gameplay is not completly finished but all the infrastrucutre is there, feel free to clone and create your own gameplay.
 
----
+
 ## Feedback
 
 If you have suggestions for improving the game mechanics, command system, or code structure, feel free to open an issue or submit a pull request!
