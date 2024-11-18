@@ -24,22 +24,8 @@ Technical Highlights
 
 Example Gameplay
 
-Welcome to TheDialogGame!  
-What is the name of your player?  
-> K-sel  
+<img width="738" alt="gameplay-exemple" src="https://github.com/user-attachments/assets/654946ee-2139-4336-98be-ec37d31064b4">
 
-Great to see you here, K-sel! You are currently at ile de dawn, the starting point of your adventure.  
-
-Here’s the map:  
-+-----------------------+-----------------------+-----------------------+-----------------------+  
-|      ile de dawn      |      jaya's bar      |    thousand sunny    |      water seven      |  
-+-----------------------+-----------------------+-----------------------+-----------------------+  
-|       red line       |         kiri         |       loguetown       |       wano kuni       |  
-+-----------------------+-----------------------+-----------------------+-----------------------+  
-|     parc d'olympe     |        konoha        | village des forgerons |        skypea        |  
-+-----------------------+-----------------------+-----------------------+-----------------------+  
-
-Type `help` to see available commands.  
 
 Available Commands
 
