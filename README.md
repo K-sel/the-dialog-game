@@ -4,7 +4,7 @@ TheDialogGame is a text-based adventure game developed as part of a first-year J
 
 In this game, players explore a dynamic map, unlock new zones by solving puzzles, collect and interact with items, and progress through a rich narrative-driven journey.
 
-*Features*
+#Features#
 
 Gameplay
 
