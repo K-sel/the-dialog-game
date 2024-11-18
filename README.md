@@ -94,8 +94,8 @@ In this game, players explore a dynamic map, unlock new zones by solving puzzles
 ## Learnings
 
 This project served as a practical application of OOP concepts and design patterns in a real-world scenario. It challenged us to think critically about game design, modularity, and scalability. I had a lot of fun coding this, the gameplay is not completly finished but all the infrastrucutre is there, feel free to clone and create your own gameplay.
----
 
+---
 ## Feedback
 
 If you have suggestions for improving the game mechanics, command system, or code structure, feel free to open an issue or submit a pull request!
