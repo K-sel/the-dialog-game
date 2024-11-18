@@ -1,4 +1,4 @@
-***TheDialogGame**
+***TheDialogGame***
 ---
 TheDialogGame is a text-based adventure game developed as part of a first-year Java course. This project emphasizes object-oriented programming (OOP) principles and integrates design patterns to create a modular and extensible game experience.
 
@@ -22,11 +22,12 @@ Technical Highlights
 	•	Strategy Pattern: For implementing different puzzle-solving mechanics.
 	•	Text-Based Input System: Intuitive command system with clear feedback to guide the player.
 
+---
 Example Gameplay
 
 <img width="738" alt="gameplay-exemple" src="https://github.com/user-attachments/assets/654946ee-2139-4336-98be-ec37d31064b4">
 
-
+---
 Available Commands
 
 	Command >"Drop"  
