@@ -1,6 +1,8 @@
 # TheDialogGame
 
-TheDialogGame est un jeu d'aventure textuel que j'ai développé en tant que projet personnel. Ce projet met l'accent sur les principes de la programmation orientée objet (POO) et intègre des modèles de conception pour créer une expérience de jeu modulaire et extensible.
+TheDialogGame est un jeu d'aventure textuel qui a débuté comme un exercice académique de première année, mais que ma curiosité et mon intérêt croissant pour la programmation m'ont poussé à transformer en un véritable projet personnel allant bien au-delà des exigences initiales.
+
+Ce projet met l'accent sur les principes de la programmation orientée objet (POO) et intègre des modèles de conception pour créer une expérience de jeu modulaire et extensible.
 
 Dans ce jeu, les joueurs explorent une carte dynamique, débloquent de nouvelles zones en résolvant des énigmes, collectionnent et interagissent avec des objets, et progressent à travers un voyage riche en narration.
 
@@ -57,7 +59,7 @@ Dans ce jeu, les joueurs explorent une carte dynamique, débloquent de nouvelles
 
 ## Apprentissages
 
-Ce projet a servi d'application pratique des concepts POO et des modèles de conception dans un scénario réel. Il m'a permis de réfléchir de manière critique à la conception de jeux, à la modularité et à l'évolutivité. J'ai pris beaucoup de plaisir à développer ce projet, le gameplay n'est pas complètement terminé mais toute l'infrastructure est là, n'hésitez pas à cloner et créer votre propre gameplay.
+Ce projet a été une opportunité exceptionnelle d'appliquer concrètement les concepts POO et les modèles de conception dans un contexte réel et stimulant. Cette démarche d'approfondissement personnel m'a permis de développer une approche critique de l'architecture logicielle, de la modularité et de l'évolutivité des systèmes. L'envie d'apprendre et de repousser les limites techniques m'a motivé à créer une infrastructure robuste et extensible. Bien que le gameplay ne soit pas entièrement finalisé, toute l'architecture est en place, offrant une base solide pour de futures extensions et améliorations.
 
 
 ## Retours
