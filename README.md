@@ -1,101 +1,65 @@
 # TheDialogGame
 
-TheDialogGame is a text-based adventure game developed as part of a first-year Java course. This project emphasizes object-oriented programming (OOP) principles and integrates design patterns to create a modular and extensible game experience.
+TheDialogGame est un jeu d'aventure textuel que j'ai développé en tant que projet personnel. Ce projet met l'accent sur les principes de la programmation orientée objet (POO) et intègre des modèles de conception pour créer une expérience de jeu modulaire et extensible.
 
-In this game, players explore a dynamic map, unlock new zones by solving puzzles, collect and interact with items, and progress through a rich narrative-driven journey.
+Dans ce jeu, les joueurs explorent une carte dynamique, débloquent de nouvelles zones en résolvant des énigmes, collectionnent et interagissent avec des objets, et progressent à travers un voyage riche en narration.
 
-## Features
+## Fonctionnalités
 
 ### Gameplay
 
-	•	Explore the Map: Travel across interconnected zones, unlocking new areas as you solve puzzles and progress through the story.
-	•	Interact with Objects: Pick up, inspect, drop, or use items to solve challenges and advance.
-	•	Solve Puzzles: Engage with riddles and clues to unlock new zones and unravel mysteries.
-	•	Commands-Based Interface: Type commands like go, take, inspect, or solve to interact with the game world.
+	•	Explorer la Carte : Voyagez à travers des zones interconnectées, débloquant de nouveaux territoires en résolvant des énigmes et en progressant dans l'histoire.
+	•	Interagir avec les Objets : Ramassez, inspectez, déposez ou utilisez des objets pour résoudre des défis et avancer.
+	•	Résoudre des Énigmes : Engagez-vous avec des devinettes et des indices pour débloquer de nouvelles zones et percer des mystères.
+	•	Interface Basée sur les Commandes : Tapez des commandes comme aller, prendre, inspecter ou résoudre pour interagir avec le monde du jeu.
 
-### Technical Highlights
+### Points Techniques Saillants
 
-	•	Object-Oriented Design: Modular design using encapsulation, inheritance, and polymorphism.
-	•	Design Patterns:
-	•	Factory Pattern: For dynamically creating game objects (e.g., zones, puzzles, or items).
-	•	Singleton Pattern: For managing the game state and player data.
-	•	Strategy Pattern: For implementing different puzzle-solving mechanics.
-	•	Text-Based Input System: Intuitive command system with clear feedback to guide the player.
+	•	Conception Orientée Objet : Conception modulaire utilisant l'encapsulation, l'héritage et le polymorphisme.
+	•	Modèles de Conception :
+	•	Modèle Factory : Pour créer dynamiquement des objets de jeu (par exemple, zones, énigmes ou objets).
+	•	Modèle Singleton : Pour gérer l'état du jeu et les données du joueur.
+	•	Modèle Strategy : Pour implémenter différents mécanismes de résolution d'énigmes.
+	•	Système de Saisie Textuel : Système de commandes intuitif avec des retours clairs pour guider le joueur.
 
 
-## Example Gameplay
+## Exemple de Gameplay
 
 <img width="738" alt="gameplay-exemple" src="https://github.com/user-attachments/assets/654946ee-2139-4336-98be-ec37d31064b4">
 
 
-## Available Commands
+## Commandes Disponibles
 
-	Command >"Drop"  
-	Description: Command used to remove items from your inventory.  
-	When to use: When you want to remove an item from your inventory. It drops to the ground but does not disappear.  
-	Variant: The `drop all` version removes all items from the inventory.  
-	
-	Command >"Help"  
-	Description: The help command lists all available commands in the game along with their information.  
-	When to use: When you don’t remember what to do or want to check the interactions available to you.  
-	
-	Command >"Take"  
-	Description: Command used to pick up items that can be collected.  
-	When to use: When you find an item that seems important, keep it! You never know, it might be useful later.  
-	Variant: The `take all` command collects all retrievable items in a zone.  
-	
-	Command >"Read"  
-	Description: Command to read letters you find.  
-	When to use: Read this letter; it might contain important clues.  
-	
-	Command >"Solve"  
-	Description: Use this command to solve puzzles.  
-	When to use: When you want to submit an answer to a puzzle.  
-	
-	Command >"Go"  
-	Description: This command moves the player across the map.  
-	When to use: To travel, you have four movement options (North/South/East/West).  
-	
-	Command >"Inspect"  
-	Description: Command used to inspect items.  
-	When to use: Inspect items; they might contain valuable clues.  
-	
-	Command >"Quit"  
-	Description: Exit the game.  
-	When to use: To leave the game – Warning: no save functionality.  
-	
-	Command >"Inventory"  
-	Description: This command displays the content of your inventory and the remaining space.  
-	When to use: When you want to check what’s in your inventory.  
-	
-	Command >"Map"  
-	Description: The map command displays the map. It highlights the player’s current position in green. Locked zones are shown in gray.  
-	When to use: If you’re lost, it can help you orient yourself in the game.  
-	
-	Command >"Look"  
-	Description: Command to observe and identify objects in the zone.  
-	When to use: When you arrive in a new zone, use this command to get an overview of the objects around you.  
-	They might hide important clues.  
-	
-	Command >"Open"  
-	Description: Provided you have the correct keys in your inventory...  
-	When to use: Use this command to open chests or locked zones on the map.  
+| Commande | Description | Utilisation | Variante |
+|----------|-------------|-------------|----------|
+| **Drop** | Retire des objets de votre inventaire | Quand vous voulez retirer un objet de votre inventaire. Il tombe au sol mais ne disparaît pas | `drop all` retire tous les objets |
+| **Help** | Liste toutes les commandes disponibles dans le jeu | Quand vous ne vous souvenez plus de quoi faire ou voulez vérifier les interactions disponibles | - |
+| **Take** | Ramasse des objets qui peuvent être collectés | Quand vous trouvez un objet qui semble important, gardez-le ! Il pourrait être utile plus tard | `take all` collecte tous les objets récupérables |
+| **Read** | Lit les lettres trouvées | Pour lire une lettre qui pourrait contenir des indices importants | - |
+| **Solve** | Résout des énigmes | Quand vous voulez soumettre une réponse à une énigme | - |
+| **Go** | Déplace le joueur sur la carte | Pour voyager avec quatre options de mouvement (Nord/Sud/Est/Ouest) | - |
+| **Inspect** | Inspecte des objets | Pour inspecter les objets qui pourraient contenir des indices précieux | - |
+| **Quit** | Quitte le jeu | Pour quitter le jeu (Attention : pas de sauvegarde) | - |
+| **Inventory** | Affiche le contenu de l'inventaire | Quand vous voulez vérifier ce qui se trouve dans votre inventaire et l'espace restant | - |
+| **Map** | Affiche la carte du jeu | Si vous êtes perdu, aide à s'orienter. Position actuelle en vert, zones verrouillées en gris | - |
+| **Look** | Observe et identifie les objets dans la zone | Quand vous arrivez dans une nouvelle zone pour avoir un aperçu des objets alentour | - |
+| **Open** | Ouvre des coffres ou zones verrouillées | À condition d'avoir les bonnes clés dans votre inventaire | - |  
 
 
-## How to Run
+## Comment Exécuter
 
-	1.	Clone the repository, get the code:
+	1.	Clonez le dépôt, obtenez le code :
 
-	2.	Compile the Java files:
+	2.	Compilez les fichiers Java :
 
-	3.	Run the game:
-
-
-## Learnings
-
-This project served as a practical application of OOP concepts and design patterns in a real-world scenario. It challenged us to think critically about game design, modularity, and scalability. I had a lot of fun coding this, the gameplay is not completly finished but all the infrastrucutre is there, feel free to clone and create your own gameplay.
+	3.	Lancez le jeu :
 
 
-## Feedback
+## Apprentissages
 
-If you have suggestions for improving the game mechanics, command system, or code structure, feel free to open an issue or submit a pull request!
+Ce projet a servi d'application pratique des concepts POO et des modèles de conception dans un scénario réel. Il m'a permis de réfléchir de manière critique à la conception de jeux, à la modularité et à l'évolutivité. J'ai pris beaucoup de plaisir à développer ce projet, le gameplay n'est pas complètement terminé mais toute l'infrastructure est là, n'hésitez pas à cloner et créer votre propre gameplay.
+
+
+## Retours
+
+Si vous avez des suggestions pour améliorer les mécaniques de jeu, le système de commandes ou la structure du code, n'hésitez pas à ouvrir une issue ou à soumettre une pull request !
